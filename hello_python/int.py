@@ -1,6 +1,6 @@
 for num in range(100):
-    end = '\n' if num == 99 else ', '
-    print("{:02d}".format(num), end=end)
+    back = '\n' if num == 99 else ', '
+    print("{:02d}".format(num), end=back)
 
 for alpha in range(ord('a'), ord('z') + 1):
     if chr(alpha) not in 'eq':
